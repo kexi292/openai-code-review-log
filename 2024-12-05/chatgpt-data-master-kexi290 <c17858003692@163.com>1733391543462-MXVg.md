@@ -1,0 +1,18 @@
+21.20:08:32.467 [main            ] DEBUG ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\code\ChatGPT-data\ChatGPT-data-domain\target\classes\com\kexi290\ChatGPT\data\domain\weixin\service\message\WeiXinBehaviorService.class]
++24-11-21.20:08:32.468 [main            ] DEBUG ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\code\ChatGPT-data\ChatGPT-data-domain\target\classes\com\kexi290\ChatGPT\data\domain\weixin\service\validate\WeiXinValidateService.class]
++24-11-21.20:08:32.470 [main            ] DEBUG ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\code\ChatGPT-data\ChatGPT-data-infrastructure\target\classes\com\kexi290\ChatGPT\data\infrastructure\repository\OpenAiRepository.class]
++24-11-21.20:08:32.472 [main            ] DEBUG ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\code\ChatGPT-data\ChatGPT-data-infrastructure\target\classes\com\kexi290\ChatGPT\data\infrastructure\repository\OrderRepository.class]
++24-11-21.20:08:32.939 [main            ] DEBUG DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
++24-11-21.20:08:32.939 [main            ] DEBUG AutoConfigurationPackages - @EnableAutoConfiguration was declared on a class in the package 'com.kexi290.ChatGPT.data'. Automatic @Repository and @Entity scanning is enabled.
++24-11-21.20:08:32.940 [main            ] DEBUG MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
++24-11-21.20:08:32.940 [main            ] DEBUG MybatisAutoConfiguration - Using auto-configuration base package 'com.kexi290.ChatGPT.data'
++24-11-21.20:08:32.982 [main            ] DEBUG DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer'
++24-11-21.20:08:32.985 [main            ] DEBUG DefaultListableBeanFactory - Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
++24-11-21.20:08:32.995 [main            ] DEBUG LogFactory             - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
++24-11-21.20:08:33.014 [main            ] DEBUG ClassPathMapperScanner - Identified candidate component class: file [D:\code\ChatGPT-data\ChatGPT-data-infrastructure\target\classes\com\kexi290\ChatGPT\data\infrastructure\dao\IOpenAIOrderDao.class]
++24-11-21.20:08:33.014 [main            ] DEBUG ClassPathMapperScanner - Identified candidate component class: file [D:\code\ChatGPT-data\ChatGPT-data-infrastructure\target\classes\com\kexi290\ChatGPT\data\infrastructure\dao\IOpenAIProductDao.class]
++24-11-21.20:08:33.014 [main            ] DEBUG ClassPathMapperScanner - Identified candidate component class: file [D:\code\ChatGPT-data\ChatGPT-data-infrastructure\target\classes\com\kexi290\ChatGPT\data\infrastructure\dao\IUserAccountDao.class]
++24-11-21.20:08:33.015 [main            ] DEBUG ClassPathMapperScanner - Creating MapperFactoryBean with name 'IOpenAIOrderDao' and 'com.kexi290.ChatGPT.data.infrastructure.dao.IOpenAIOrderDao' mapperInterface
++24-11-21.20:08:33.015 [main            ] DEBUG ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'IOpenAIOrderDao'.
++24-11-21.20:08:33.015 [main            ] DEBUG ClassPathMapperScanner - Creating MapperFactoryBean with name 'IOpenAIProductDao' and 'com.kexi290.ChatGPT.data.infrastructure.dao.IOpenAIProductDao' mapperInterface
++24-11-21.20:08:33.015 [main            ] DEBUG ClassPathMapperScanner - Enabling autowire by type
